@@ -1,26 +1,21 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { Switch, Route } from 'react-router-dom';
+import Head from './components/head/Head';
+import ApodPage from './pages/apodPage/ApodPage';
+import ExoPage from './pages/exoPage/ExoPage';
+import HomePage from './pages/homePage/HomePage';
 
-function App() {
+const App: React.FC = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='App'>
+      <Head />
+      <Switch>
+        <Route exact path='/' component={HomePage} />
+        <Route path='/apod' component={ApodPage} />
+        <Route path='/exoplanet' component={ExoPage} />
+      </Switch>
     </div>
   );
-}
+};
 
 export default App;
