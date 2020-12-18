@@ -2,7 +2,7 @@ import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 import Head from './components/head/Head';
 import ApodPage from './pages/apodPage/ApodPage';
-import ExoPage from './pages/exoPage/ExoPage';
+import HubblePage from './pages/hubblePage/HubblePage';
 import HomePage from './pages/homePage/HomePage';
 
 const App: React.FC = () => {
@@ -12,7 +12,7 @@ const App: React.FC = () => {
       <Switch>
         <Route exact path='/' component={HomePage} />
         <Route path='/apod' component={ApodPage} />
-        <Route path='/exoplanet' component={ExoPage} />
+        <Route path='/hubble' component={HubblePage} />
       </Switch>
     </div>
   );

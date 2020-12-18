@@ -12,7 +12,7 @@ const Head: React.FC = () => {
       <StyledAppTitle to='/'>Nasa API</StyledAppTitle>
       <StyledOptions>
         <StyledOption to='/apod'>APOD</StyledOption>
-        <StyledOption to='/exoplanet'>Exoplanet</StyledOption>
+        <StyledOption to='/hubble'>Hubble Space Telescope</StyledOption>
         <StyledOption to='/exoplanet'>Exoplanet</StyledOption>
       </StyledOptions>
     </StyledHead>

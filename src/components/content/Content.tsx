@@ -1,5 +1,5 @@
 import React from 'react';
-import { PagesData } from '../../types/pagesTypes/pagesTypes';
+import { ApodData } from '../../types/pagesTypes/pagesTypes';
 import {
   StyledContent,
   StyledContentContainer,
@@ -9,10 +9,10 @@ import {
 } from './contentStyles';
 
 interface IProps {
-  data: PagesData;
+  data: ApodData;
 }
 
-const Content = ({ data }: IProps) => {
+const Content: React.FC<IProps> = ({ data }) => {
   const { copyright, date, explanation, url, hdurl, media_type, title } = data;
   return (
     <StyledContentContainer>

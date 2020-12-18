@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { PagesData } from '../../types/pagesTypes/pagesTypes';
+import { ApodData } from '../../types/pagesTypes/pagesTypes';
 
 export const useFetchApod = () => {
   const initialValues = {
@@ -11,7 +11,7 @@ export const useFetchApod = () => {
     media_type: '',
     title: '',
   };
-  const [data, setData] = useState<PagesData>(initialValues);
+  const [data, setData] = useState<ApodData>(initialValues);
   const [isLoading, setLoading] = useState<Boolean>(true);
   useEffect(() => {
     const getData = async () => {
