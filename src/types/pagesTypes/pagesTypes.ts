@@ -37,3 +37,20 @@ export type ImageData = {
     ];
   };
 };
+
+export type ExpData = {
+  data: [
+    {
+      media_type: String;
+      keywords: [String];
+      date_created: String;
+      description: String;
+      nasa_id: String;
+      center: String;
+      title: String;
+      description_508: String;
+      secondary_creator: String;
+    }
+  ];
+  links: string;
+};

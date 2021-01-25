@@ -13,7 +13,7 @@ const Head: React.FC = () => {
       <StyledOptions>
         <StyledOption to='/apod'>APOD</StyledOption>
         <StyledOption to='/hubble'>Hubble Space Telescope</StyledOption>
-        <StyledOption to='/exoplanet'>Exoplanet</StyledOption>
+        {/*<StyledOption to='/exoplanet'>Exoplanet</StyledOption>*/}
       </StyledOptions>
     </StyledHead>
   );

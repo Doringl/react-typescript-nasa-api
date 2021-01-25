@@ -2,3 +2,4 @@
 [1214/174032.344:ERROR:file_io.cc(90)] ReadExactly: expected 36, observed 0
 [1214/174243.506:ERROR:directory_reader_win.cc(43)] FindFirstFile: Sistem belirtilen yolu bulamýyor. (0x3)
 [1216/141918.560:ERROR:directory_reader_win.cc(43)] FindFirstFile: Sistem belirtilen yolu bulamýyor. (0x3)
+[1228/222224.982:ERROR:directory_reader_win.cc(43)] FindFirstFile: Sistem belirtilen yolu bulamýyor. (0x3)
