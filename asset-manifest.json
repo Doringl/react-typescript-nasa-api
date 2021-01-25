@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react-typescript-nasa-api/static/css/main.5f5f5853.chunk.css",
+    "main.js": "/react-typescript-nasa-api/static/js/main.6726d124.chunk.js",
+    "main.js.map": "/react-typescript-nasa-api/static/js/main.6726d124.chunk.js.map",
+    "runtime-main.js": "/react-typescript-nasa-api/static/js/runtime-main.5eab4aaf.js",
+    "runtime-main.js.map": "/react-typescript-nasa-api/static/js/runtime-main.5eab4aaf.js.map",
+    "static/js/2.466324dd.chunk.js": "/react-typescript-nasa-api/static/js/2.466324dd.chunk.js",
+    "static/js/2.466324dd.chunk.js.map": "/react-typescript-nasa-api/static/js/2.466324dd.chunk.js.map",
+    "static/js/3.cd1539e8.chunk.js": "/react-typescript-nasa-api/static/js/3.cd1539e8.chunk.js",
+    "static/js/3.cd1539e8.chunk.js.map": "/react-typescript-nasa-api/static/js/3.cd1539e8.chunk.js.map",
+    "index.html": "/react-typescript-nasa-api/index.html",
+    "static/css/main.5f5f5853.chunk.css.map": "/react-typescript-nasa-api/static/css/main.5f5f5853.chunk.css.map",
+    "static/js/2.466324dd.chunk.js.LICENSE.txt": "/react-typescript-nasa-api/static/js/2.466324dd.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5eab4aaf.js",
+    "static/js/2.466324dd.chunk.js",
+    "static/css/main.5f5f5853.chunk.css",
+    "static/js/main.6726d124.chunk.js"
+  ]
+}
